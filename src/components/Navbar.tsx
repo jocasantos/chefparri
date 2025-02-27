@@ -17,7 +17,7 @@ const Navbar = () => {
       align={"center"}
     >
       <Text letterSpacing={1} color={"white"} fontSize="xl">
-        João Santos
+        Chef Parri
       </Text>
       <Flex>
         {isMdScreen ? (
