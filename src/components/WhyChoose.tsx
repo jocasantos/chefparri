@@ -1,4 +1,4 @@
-import { Box, Card, Flex, Grid, GridItem, Stack, Text } from "@chakra-ui/react";
+import { Box, Flex, Grid, GridItem, Stack, Text } from "@chakra-ui/react";
 import CardTemplate from "./CardTemplate";
 
 

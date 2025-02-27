@@ -17,9 +17,9 @@ interface Props {
 }
 
 const ProjectCard = ({ text, text2 }: Props) => {
-  const handleButtonClick = (e: React.MouseEvent) => {
+/*   const handleButtonClick = (e: React.MouseEvent) => {
     e.preventDefault();
-  };
+  }; */
   return (
     <Card
       bg="white"

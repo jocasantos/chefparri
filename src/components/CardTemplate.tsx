@@ -18,9 +18,9 @@ import {
   }
   
   const CardTemplate = ({ text, text2, text3 }: Props) => {
-    const handleButtonClick = (e: React.MouseEvent) => {
+/*     const handleButtonClick = (e: React.MouseEvent) => {
       e.preventDefault();
-    };
+    }; */
     return (
       <Card
         bg="white"
