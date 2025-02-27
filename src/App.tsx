@@ -6,6 +6,8 @@ import { Box } from "@chakra-ui/react";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Courses from "./components/Courses";
+import WhyChoose from "./components/WhyChoose";
+import Price from "./components/Price";
 
 function App() {
   return (
@@ -13,9 +15,15 @@ function App() {
       <Navbar />
       <Box bg="white" pt={40}></Box>
       <Hero />
+
+      <Box bg="white" pt={40}></Box>
+      <WhyChoose />
+      <Box bg="white" pt={40}></Box>
+      <Price />
       <Box bg="white" pt={40}></Box>
       <About />
       <Box bg="white" pt={40}></Box>
+      
       <Projects />
       <Box bg="white" pt={40}></Box>
       <Courses />

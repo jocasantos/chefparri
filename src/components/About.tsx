@@ -1,5 +1,4 @@
-import { Stack, Image, Card, CardBody, Flex } from "@chakra-ui/react";
-import jocacolor from "../assets/joca_color3.webp";
+import { Stack, Card, CardBody, Flex } from "@chakra-ui/react";
 import { Text } from "@chakra-ui/react";
 import { FaCode } from "react-icons/fa";
 
@@ -16,6 +15,7 @@ const About = () => {
       </Text>
       <Text
         mt={-2}
+        pb={10}
         letterSpacing={1}
         fontSize={"xx-large"}
         as={"b"}
@@ -23,15 +23,7 @@ const About = () => {
       >
         About Me
       </Text>
-      <Image
-        mt={6}
-        objectFit="contain"
-        boxSize={140}
-        borderRadius={40}
-        src={jocacolor}
-        alt="Joao Santos"
-        mb={2}
-      />
+
       <Card mb={1} w="360px" bg="white" color="black">
         <CardBody>
           <Flex justifyContent="center" mb={1}>
@@ -71,6 +63,7 @@ service, that completely changes! I take the stress out of meal preparation, ens
           </Flex>
         </CardBody>
       </Card>
+
     </Stack>
   );
 };

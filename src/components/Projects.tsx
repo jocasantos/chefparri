@@ -1,21 +1,6 @@
 import { Box, Flex, Stack, Text } from "@chakra-ui/react";
 import ProjectCard from "./ProjectCard";
-import SladWebsite from "../assets/slad_project_img.jpeg";
-import GamesHub from "../assets/games-hub.jpeg";
-import MuscleTracker from "../assets/MuscleTracker.jpeg";
-import DevOps from "../assets/DevOps.png";
-import ConfigurationManagement from "../assets/ConfigurationManagement.png";
-import ScriptShell from "../assets/ScriptShell.png";
-import terraformbasic from "../assets/terraformbasic.png";
-import jenkinsBasic from "../assets/jenkinsBasic.png";
-import githubActions from "../assets/githubActions.png";
-import dockerproject2 from "../assets/dockerproject2.png";
-import k8sMonit from "../assets/k8s-monit.png";
-import jenkinsPipe from "../assets/jenkins-pipe.png";
-import k8s_eks from "../assets/k8s_eks.png";
-import aws_cost_opti from "../assets/aws-cost-opti.png";
-import eks_helm from "../assets/eks-helm.png";
-import vpc_diagram from "../assets/vpc-diagram.png";
+
 
 const Projects = () => {
   return (
@@ -32,7 +17,7 @@ const Projects = () => {
         fontSize={"medium"}
         color={"RGBA(0, 0, 0, 0.36)"}
       >
-        Browse My Recent
+        How it
       </Text>
       <Text
         mt={-2}
@@ -41,170 +26,72 @@ const Projects = () => {
         as={"b"}
         color={"black"}
       >
-        Projects
+        Works
       </Text>
       <Box mt={4} />
       <Flex>
         <ProjectCard
 
-          img={eks_helm} //i want to stretch this image
-          text="EKS / Kubernetes Project"
-          text2="EKS, AWS, Helm, Kubernetes, ALB, Ingress Controller"
-          link="https://github.com/jocasantos/3-tier-app-eks"
-          link2="https://github.com/jocasantos/3-tier-app-eks"
+
+          text="1. Kitchen Analysis"
+          text2="Before our first cooking session, I will assess your kitchen setup, available tools, and storage capacity to ensure everything runs smoothly"
+
         />
       </Flex>
       <Box mt={4} />
       <Flex>
         <ProjectCard
 
-          img={jenkinsPipe} //i want to stretch this image
-          imgStyle={{ objectFit: "contain" }}
-          text="End-to-end CI/CD Pipeline"
-          text2="Jenkins, SonarQube, Kubernetes, Argo CD, Docker"
-          link="https://github.com/jocasantos/jenkins-end-to-end-cicd"
-          link2="https://github.com/jocasantos/jenkins-end-to-end-cicd"
+
+          text="2. Book Your Service"
+          text2="Contact me to schedule a cooking session"
+
         />
       </Flex>
       <Box mt={4} />
       <Flex>
         <ProjectCard
-          img={aws_cost_opti}
-          text="AWS Cost Optimization"
-          text2="AWS, Lambda, Python, CloudWatch"
-          link="https://github.com/jocasantos/aws-cloud-cost-optimization/"
-          link2="https://github.com/jocasantos/aws-cloud-cost-optimization/"
+
+          text="3. Menu Planning"
+          text2="We discuss your preferences and dietary needs to create a fully customized menu"
+
         />
       </Flex>
       <Box mt={4} />
       <Flex>
         <ProjectCard
-          img={vpc_diagram}
-          imgStyle={{ objectFit: "contain" }}
-          text="Terraform Project"
-          text2="Terraform, AWS, Load Balancer, VPC, EC2, Shell Scripting"
-          link="https://github.com/jocasantos/terraform-aws-project"
-          link2="https://github.com/jocasantos/terraform-aws-project"
+
+
+          text="4. Grocery Shopping "
+          text2="I will provide a detailed grocery list for you to ensure all necessary ingredients are available. Since I currently don’t have a car, I may not be able to do the shopping myself"
+
         />
       </Flex>
       <Box mt={4} />
       <Flex>
         <ProjectCard
-          img={k8s_eks}
-          text="EKS Project"
-          text2="AWS, EKS, Helm, Load Balancer, Kubernetes, Ingress Controller"
-          link="https://github.com/jocasantos/eks-project"
-          link2="https://github.com/jocasantos/eks-project"
+
+          text="5. Cooking at Your Home"
+          text2="I prepare all meals in your kitchen within 5-8 hours, depending on the family size"
+
         />
       </Flex>
       <Box mt={4} />
       <Flex>
         <ProjectCard
-          img={k8sMonit}
-          text="Observability Project"
-          text2="Kubernetes, Prometheus, Grafana, Helm"
-          link="https://github.com/jocasantos/how-to-setup-prometheus-and-grafana-in-k8s"
-          link2="https://github.com/jocasantos/how-to-setup-prometheus-and-grafana-in-k8s"
+
+          text="6. Packaging & Storage "
+          text2="Meals are portioned and stored in glass containers for optimal freshness. Clients must provide their own glass containers, having more, allows for better single-serving portions. I strongly recommend avoiding plastic storage to maintain the quality and safety of the food"
+
         />
       </Flex>
       <Box mt={4} />
       <Flex>
         <ProjectCard
-          img={dockerproject2}
-          text="Docker Project"
-          text2="Docker, Docker Compose, Linux, MERN Stack"
-          link="https://github.com/jocasantos/docker-mern-app-with-and-without-docker-compose"
-          link2="https://github.com/jocasantos/docker-mern-app-with-and-without-docker-compose"
-        />
-      </Flex>
-      <Box mt={4} />
-      <Flex>
-        <ProjectCard
-          img={githubActions}
-          text="GitHub Actions Project"
-          text2="GitHub Actions, AWS, EC2, CI/CD, Python"
-          link="https://github.com/jocasantos/github-actions-self-host-runner-example"
-          link2="https://github.com/jocasantos/github-actions-self-host-runner-example"
-        />
-      </Flex>
-      <Box mt={4} />
-      <Flex>
-        <ProjectCard
-          img={jenkinsBasic}
-          text="Jenkins Project"
-          text2="Jenkins, Docker, Git, AWS, Bash"
-          link="https://github.com/jocasantos/jenkins-simple-pipeline-docker"
-          link2="https://github.com/jocasantos/jenkins-simple-pipeline-docker"
-        />
-      </Flex>
-      <Box mt={4} />
-      <Flex>
-        <ProjectCard
-          img={terraformbasic}
-          text="Terraform Project"
-          text2="Terraform, AWS, EC2, S3, DynamoDB"
-          link="https://github.com/jocasantos/terraform-local-and-remote-state"
-          link2="https://github.com/jocasantos/terraform-local-and-remote-state"
-        />
-      </Flex>
-      <Box mt={4} />
-      <Flex>
-        <ProjectCard
-          img={ConfigurationManagement}
-          text="Ansible Project"
-          text2="Ansible, AWS, EC2, SSH, Linux"
-          link="https://github.com/jocasantos/how-to-manage-remote-servers-with-ansible"
-          link2="https://github.com/jocasantos/how-to-manage-remote-servers-with-ansible"
-        />
-      </Flex>
-      <Box mt={4} />
-      <Flex>
-        <ProjectCard
-          img={DevOps}
-          text="AWS Project"
-          text2="AWS, EC2, Security Groups, IAM, SSH, Linux, SHELL"
-          link="https://github.com/jocasantos/aws-nodejs-app-demo"
-          link2="https://github.com/jocasantos/aws-nodejs-app-demo"
-        />
-      </Flex>
-      <Box mt={4} />
-      <Flex>
-        <ProjectCard
-          img={ScriptShell}
-          text="SHELL Project"
-          text2="AWS CLI, S3, Linux, SHELL"
-          link="https://github.com/jocasantos/CloudUploaderCLI"
-          link2="https://github.com/jocasantos/CloudUploaderCLI"
-        />
-      </Flex>
-      <Box mt={4} />
-      <Flex>
-        <ProjectCard
-          img={MuscleTracker}
-          text="Muscle Tracker"
-          text2="NextJS, TypeScript, MongoDB, shadcn/ui, Tailwind, Clerk, Stripe, Vercel"
-          link="https://www.muscletracker.fit/"
-          link2="https://github.com/jocasantos/gym-plans"
-        />
-      </Flex>
-      <Box mt={4} />
-      <Flex>
-        <ProjectCard
-          img={GamesHub}
-          text="Video Games Library"
-          text2="React, TypeScript, Chakra UI"
-          link="https://game-grove.vercel.app/"
-          link2="https://github.com/jocasantos/game-hub"
-        />
-      </Flex>
-      <Box mt={4} />
-      <Flex>
-        <ProjectCard
-          img={SladWebsite}
-          text="Local Team's Website"
-          text2="HTML, CSS, JavaScript"
-          link="https://jocasantos.github.io/SLAD"
-          link2="https://github.com/jocasantos/SLAD"
+
+          text="7. Enjoy Your Meals!   "
+          text2="No stress, just great food, ready to be enjoyed"
+
         />
       </Flex>
     </Stack>
