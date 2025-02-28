@@ -9,7 +9,7 @@ import {
 import flag from "../assets/portugal-07.svg";
 import { Link as Scroll } from "react-scroll";
 import chef3 from "../assets/chefparri3bg.png";
-import Tomo from "../assets/tomo.jpeg";
+import Tomo from "../assets/Tomo.jpeg";
 
 const Hero = () => {
   return (
