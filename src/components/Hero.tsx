@@ -6,7 +6,6 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
-import joca from "../assets/joca.jpeg";
 import flag from "../assets/portugal-07.svg";
 import { Link as Scroll } from "react-scroll";
 import chef3 from "../assets/chefparri3bg.png";
