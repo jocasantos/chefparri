@@ -10,17 +10,21 @@ import joca from "../assets/joca.jpeg";
 import flag from "../assets/portugal-07.svg";
 import { Link as Scroll } from "react-scroll";
 import chef3 from "../assets/chefparri3bg.png";
+import Tomo from "../assets/tomo.jpeg";
 
 const Hero = () => {
   return (
     <Stack id="Home" bg="white" h="100%" align={"center"} direction={"column"}>
-      <Image
-        objectFit="cover"
-        boxSize={200}
-        borderRadius="full"
-        src={joca}
-        alt="Joao Santos"
-      />
+
+        <Image
+          objectFit="cover"
+          objectPosition="50% 20%"
+          boxSize={200}
+          borderRadius="full"
+          src={Tomo}
+          alt="Tómas Parrinha"
+        />
+
       <Text
         fontWeight="500"
         letterSpacing={-1}
