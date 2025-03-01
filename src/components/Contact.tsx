@@ -131,7 +131,7 @@ const Contact = () => {
         </Text>
         <MdCopyright size={10} color="gray" />
         <Text ml={-1} color="gray" fontSize={"x-small"}>
-          2025 Tómas Parrinha. All Rights Reserved
+          2025 Tomás Parrinha. All Rights Reserved
         </Text>
       </HStack>
     </Stack>
