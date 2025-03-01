@@ -28,13 +28,13 @@ const Hero = () => {
         fontWeight="500"
         letterSpacing={-1}
         fontSize={"medium"}
-        mt={10}
+        mt={14}
         color={"RGBA(0, 0, 0, 0.36)"}
       >
         Hello, I'm
       </Text>
 
-      <Img width={400} mt={-20} pr={10} pb={6}  src={chef3}/>
+      <Img width={360} mt={-20} pr={10} pb={6}  src={chef3}/>
 
 
 
@@ -53,10 +53,12 @@ const Hero = () => {
           offset={-160}
           duration={500}
           key={"Contact2"}
+          
         >
           <Button
             color="white"
             ml={1}
+            
             border="1px"
             borderRadius="30px"
             fontSize="sm"
@@ -73,7 +75,24 @@ const Hero = () => {
             Contact Info
           </Button>
         </Scroll>
-      
+      <Box mt={40} />
+
+      <Text
+        mt={-2}
+        letterSpacing={1}
+        fontSize={"xx-large"}
+        as={"b"}
+        color={"black"}
+        textAlign={"center"}
+      >
+        Do you need someone that prepares delicious<br></br>
+        and balanced meals for your entire week?
+
+      </Text>
+      <Text fontWeight="600" fontSize={"x-large"} color={"RGBA(0, 0, 0, 0.36)"}>
+      With Chef Parri it is now possible!<br></br>
+      </Text>
+
     </Stack>
   );
 };

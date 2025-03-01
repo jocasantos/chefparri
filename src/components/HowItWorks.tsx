@@ -2,10 +2,10 @@ import { Box, Flex, Stack, Text } from "@chakra-ui/react";
 import ProjectCard from "./ProjectCard";
 
 
-const Projects = () => {
+const HowItWorks = () => {
   return (
     <Stack
-      id="Projects"
+      id="How"
       bg="white"
       h="100%"
       align={"center"}
@@ -98,4 +98,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default HowItWorks;

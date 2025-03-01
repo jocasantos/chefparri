@@ -1,11 +1,12 @@
-import { Box, Flex, Grid, GridItem, Stack, Text } from "@chakra-ui/react";
-import CardTemplate from "./CardTemplate";
+import { Box, Flex, Stack, Text } from "@chakra-ui/react";
+
+import ProjectCard from "./ProjectCard";
 
 
 const WhyChoose = () => {
   return (
     <Stack
-      id="WhyChoose"
+      id="Why"
       bg="white"
       h="100%"
       align={"center"}
@@ -29,10 +30,10 @@ const WhyChoose = () => {
         Chef Parri
       </Text>
       <Box mt={4} />
-      <Grid templateColumns="repeat(2, 1fr)" gap={6}>
-        <GridItem >
+{/*       <Grid templateColumns="repeat(2, 1fr)" gap={6}>
+        <GridItem > */}
       <Flex>
-        <CardTemplate
+        <ProjectCard
 
 
           text="Healthier Eating"
@@ -42,7 +43,7 @@ const WhyChoose = () => {
       </Flex>
       <Box mt={4} />
       <Flex>
-        <CardTemplate
+        <ProjectCard
 
 
           text="Time Saving"
@@ -50,10 +51,11 @@ const WhyChoose = () => {
 
         />
       </Flex>
-      </GridItem>
-      <GridItem >
+      <Box mt={4} />
+{/*       </GridItem> */}
+{/*       <GridItem > */}
       <Flex>
-        <CardTemplate
+        <ProjectCard
 
           text="Less Food Waste"
           text2="Efficient portioning and storage solutions"
@@ -62,7 +64,7 @@ const WhyChoose = () => {
       </Flex>
       <Box mt={4} />
       <Flex>
-        <CardTemplate
+        <ProjectCard
 
 
           text="Stress-Free Dining"
@@ -70,8 +72,8 @@ const WhyChoose = () => {
 
         />
       </Flex>
-      </GridItem>
-        </Grid>
+{/*       </GridItem>
+        </Grid> */}
       
     </Stack>
   );

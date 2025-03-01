@@ -5,7 +5,7 @@ import CardTemplate from "./CardTemplate";
 const Price = () => {
   return (
     <Stack
-      id="WhyChoose"
+      id="Price"
       bg="white"
       h="100%"
       align={"center"}
@@ -29,7 +29,7 @@ const Price = () => {
         Packages
       </Text>
       <Box mt={4} />
-         <Stack direction={"row"} spacing={3}>
+         <Stack direction={"column"} >
 
       <Flex>
         <CardTemplate
@@ -37,7 +37,7 @@ const Price = () => {
 
           text="1-2 People"
           text2="120€ per session"
-          text3="Exclude VAT"
+          text3="Excluding VAT"
 
         />
       </Flex>
@@ -48,7 +48,7 @@ const Price = () => {
 
           text="3-4 People"
           text2="150€ per session"
-          text3="Exclude VAT"
+          text3="Excluding VAT"
 
         />
       </Flex>

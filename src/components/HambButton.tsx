@@ -48,15 +48,39 @@ const HambButton = () => {
           </MenuItem>
         </Link>
         <Link
-          to="Projects"
+          to="Why"
           spy={true}
           smooth={true}
           offset={-100}
           duration={500}
-          key={"Projects"}
+          key={"Why"}
         >
           <MenuItem justifyContent={"center"} bg={"black"} color="white">
-            Projects
+            Why
+          </MenuItem>
+        </Link>
+        <Link
+          to="Price"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          key={"Price"}
+        >
+          <MenuItem justifyContent={"center"} bg={"black"} color="white">
+            Price
+          </MenuItem>
+        </Link>
+        <Link
+          to="How"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          key={"How"}
+        >
+          <MenuItem justifyContent={"center"} bg={"black"} color="white">
+            How
           </MenuItem>
         </Link>
         <Link

@@ -56,24 +56,11 @@ const Contact = () => {
           fontWeight={400}
           bg="white"
           _hover={{ transform: "scale(1.05)", textDecoration: "none" }}
-          href="mailto:joaopcsantos1@gmail.com"
+          href="mailto:chefparri@hotmail.com"
         >
-          joaopcsantos1@gmail.com
+          chefparri@hotmail.com
         </Button>
-        <Button
-          as={Link_chakra}
-          leftIcon={<MdEmail />}
-          color="black"
-          fontSize="sm"
-          fontWeight={400}
-          bg="white"
-          _hover={{ transform: "scale(1.05)", textDecoration: "none" }}
-          href="https://www.linkedin.com/in/jocasantos/"
-          isExternal
-          
-        >
-          LinkedIn
-        </Button>
+
       </Flex>
       <Box height={40}></Box>
       <Stack cursor={"pointer"} direction="row" spacing={8}>
@@ -102,15 +89,39 @@ const Contact = () => {
           </Text>
         </Link>
         <Link
-          to="Projects"
+          to="Why"
           spy={true}
           smooth={true}
           offset={-100}
           duration={500}
-          key={"Projects"}
+          key={"Why"}
         >
           <Text color="black" fontWeight={500}>
-            Projects
+            Why
+          </Text>
+        </Link>
+        <Link
+          to="Price"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          key={"Price"}
+        >
+          <Text color="black" fontWeight={500}>
+            Price
+          </Text>
+        </Link>
+        <Link
+          to="How"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          key={"How"}
+        >
+          <Text color="black" fontWeight={500}>
+            How
           </Text>
         </Link>
         <Link
@@ -132,7 +143,7 @@ const Contact = () => {
         </Text>
         <MdCopyright size={10} color="gray" />
         <Text ml={-1} color="gray" fontSize={"x-small"}>
-          2023 João Santos. All Rights Reserved
+          2025 Tómas Parrinha. All Rights Reserved
         </Text>
       </HStack>
     </Stack>
