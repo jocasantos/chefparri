@@ -89,8 +89,8 @@ const Hero = () => {
         and balanced meals for your entire week?
 
       </Text>
-      <Text fontWeight="600" fontSize={"x-large"} color={"RGBA(0, 0, 0, 0.36)"}>
-      With Chef Parri it is now possible!<br></br>
+      <Text fontWeight="600" fontSize={"x-large"} color={"RGBA(0, 0, 0, 0.36)"} textAlign={"center"}>
+      With Chef Parri it is now possible!
       </Text>
 
     </Stack>
