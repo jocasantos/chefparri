@@ -124,18 +124,6 @@ const Contact = () => {
             How
           </Text>
         </Link>
-        <Link
-          to="Contact"
-          spy={true}
-          smooth={true}
-          offset={-160}
-          duration={500}
-          key={"Contact"}
-        >
-          <Text color="black" fontWeight={500}>
-            Contact
-          </Text>
-        </Link>
       </Stack>
       <HStack mt={4} mb={10}>
         <Text mr={-1} color="gray" fontSize={"x-small"}>
