@@ -34,7 +34,7 @@ const HowItWorks = () => {
 
 
           text="1. Kitchen Analysis"
-          text2="Before our first cooking session, I will assess your kitchen setup, available tools, and storage capacity to ensure everything runs smoothly"
+          text2="Before our first session, I’ll review your kitchen setup, tools, and storage to ensure a smooth cooking experience"
 
         />
       </Flex>
@@ -63,7 +63,7 @@ const HowItWorks = () => {
 
 
           text="4. Grocery Shopping "
-          text2="I will provide a detailed grocery list for you to ensure all necessary ingredients are available. Since I currently don’t have a car, I may not be able to do the shopping myself"
+          text2="I’ll provide a detailed grocery list, so you have everything ready for our session"
 
         />
       </Flex>
@@ -81,7 +81,7 @@ const HowItWorks = () => {
         <ProjectCard
 
           text="6. Packaging & Storage "
-          text2="Meals are portioned and stored in glass containers for optimal freshness. Clients must provide their own glass containers, having more, allows for better single-serving portions. I strongly recommend avoiding plastic storage to maintain the quality and safety of the food"
+          text2="Meals are portioned into glass containers for freshness. Clients must provide their own. Having extras, helps with single servings. I recommend avoiding plastic to maintain quality"
 
         />
       </Flex>
