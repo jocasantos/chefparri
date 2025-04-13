@@ -1,8 +1,10 @@
 import {
   Box,
   Button,
+  HStack,
   Image,
   Img,
+  Link,
   Stack,
   Text,
 } from "@chakra-ui/react";
@@ -10,6 +12,8 @@ import flag from "../assets/portugal-07.svg";
 import { Link as Scroll } from "react-scroll";
 import chef3 from "../assets/chefparri3bg.png";
 import Tomo from "../assets/Tomo.jpeg";
+import { FaInstagram } from "react-icons/fa";
+
 
 const Hero = () => {
   return (
@@ -44,7 +48,17 @@ const Hero = () => {
 
       <Img boxSize={14} src={flag} />
 
-      <Box mt={7} />
+      <Box mt={4} />
+
+      <HStack  spacing={4}>
+
+      <Link
+          _hover={{ transform: "scale(1.1)" }}
+          isExternal
+          href="https://www.instagram.com/chefparri/"
+        >
+          <FaInstagram size={56} color="black" />
+        </Link>
 
         <Scroll
           to="Contact"
@@ -75,7 +89,12 @@ const Hero = () => {
             Contact Info
           </Button>
         </Scroll>
+
+      </HStack>
+
       <Box mt={40} />
+
+  
 
       <Text
         mt={-2}

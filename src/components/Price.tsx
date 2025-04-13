@@ -36,7 +36,8 @@ const Price = () => {
 
 
           text="1-2 People"
-          text2="120€ per session"
+          text4="(week)"
+          text2="150€ per session"
           text3="Excluding VAT"
 
         />
@@ -47,9 +48,19 @@ const Price = () => {
 
 
           text="3-4 People"
-          text2="150€ per session"
+          text4="(week)"
+          text2="200€ per session"
           text3="Excluding VAT"
 
+        />
+      </Flex>
+      <Box mt={4} />
+      <Flex justify="center" align="center">
+        <CardTemplate
+          text="Premium Meal + Service "
+          text4="(4 px)"
+          text2="200€ per session"
+          text3="Excluding VAT"
         />
       </Flex>
 

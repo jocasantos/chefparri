@@ -9,6 +9,7 @@ import {
 import { MdEmail, MdCopyright } from "react-icons/md";
 import { Link } from "react-scroll";
 import { Link as Link_chakra }  from "@chakra-ui/react";
+import { FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -62,7 +63,17 @@ const Contact = () => {
         </Button>
 
       </Flex>
-      <Box height={40}></Box>
+
+      <Box height={4}></Box>
+      <Link_chakra
+        _hover={{ transform: "scale(1.1)" }}
+        isExternal
+        href="https://www.instagram.com/chefparri/"
+      >
+        <FaInstagram size={56} color="black" />
+      </Link_chakra>
+      
+      <Box height={20}></Box>
       <Stack cursor={"pointer"} direction="row" spacing={8}>
         <Link
           to="Home"

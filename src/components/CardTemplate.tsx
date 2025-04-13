@@ -14,10 +14,11 @@ import {
     text: string;
     text2: string;
     text3?: string;
+    text4?: string;
   
   }
   
-  const CardTemplate = ({ text, text2, text3 }: Props) => {
+  const CardTemplate = ({ text, text2, text3, text4 }: Props) => {
 /*     const handleButtonClick = (e: React.MouseEvent) => {
       e.preventDefault();
     }; */
@@ -39,6 +40,9 @@ import {
   
             <Heading mt={3} size="md" color="black">
               {text}
+            </Heading>
+            <Heading  size="md" color="black">
+              {text4}
             </Heading>
             <Text mb={0} color="RGBA(0, 0, 0, 0.36)" textAlign={"center"}>
               {text2}
