@@ -57,10 +57,11 @@ const Price = () => {
       <Box mt={4} />
       <Flex justify="center" align="center">
         <CardTemplate
-          text="Premium Meal + Service "
+          text="Private Dinner + Service "
           text4="(4 px)"
           text2="200€ per session"
-          text3="Excluding VAT"
+          text3="A refined in-home experience -
+chef, service, wine & table all taken care of."
         />
       </Flex>
 

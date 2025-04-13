@@ -3,10 +3,11 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import { Box } from "@chakra-ui/react";
-import Projects from "./components/HowItWorks";
+
 import Contact from "./components/Contact";
 import WhyChoose from "./components/WhyChoose";
 import Price from "./components/Price";
+import HowItWorks from "./components/HowItWorks";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
       <Price />
       <Box bg="white" pt={40}></Box>
 
-      <Projects />
+      <HowItWorks />
       <Box bg="white" pt={20}></Box>
 
       <Contact />
