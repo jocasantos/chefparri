@@ -31,7 +31,7 @@ const About = () => {
               Life and Values
             </Text>
             <Text textAlign="justify" fontSize="sm" color="RGBA(0, 0, 0, 0.50)">
-              I’m Tomás Parrinha, 31 years old, living in the Dénia, Spain. I'm a passionate private chef who brings the <b>restaurant experience</b> to your home. With years of expertise, I craft meals that suit your taste, lifestyle, and dietary needs..
+              I’m Tomás Parrinha, 31 years old, living in Dénia, Spain. I'm a passionate private chef who brings the <b>restaurant experience</b> to your home. With years of expertise, I craft meals that suit your taste, lifestyle, and dietary needs..
             </Text>
           </Flex>
         </CardBody>
